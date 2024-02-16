@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 215, 255);
+    height: 100vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    /* border: 1px solid white; */
+    width: 100%;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.calc_container{
+    height: 800px;
+    width: 500px;
+    background-color: rgb(13, 50, 80);
+    border-radius: 20px;
+    box-shadow: 0px 5px 40px 10px rgba(9, 32, 51, 0.664);
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.output{
+    width: 100%;
+    height: 20%;
+    border: 5px solid rgba(255, 255, 255, 0.192);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prev{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: rgb(10, 35, 56);
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 20px;
+    overflow: hidden;
+    text-align: right;
+    border: none;
+
+
+}
+.current{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: rgb(10, 35, 56);
+    color: rgb(0, 255, 13);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 20px;
+    overflow: hidden;
+
+
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid white; */
+    padding: 6px;
+    /* background-color: rgba(10, 35, 56, 0.596); */
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 40px 10px rgba(24, 63, 114, 0.692); */
+}
+
+button {
+    outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.247);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.719);
+}
+button:active{
+    background-color: rgba(255, 255, 255, 0.521);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.719);
+}
+
+.numbers{
+    height: 100%;
+    /* border: 1px solid white; */
+    width: 72%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers button{
+    height: 80px;
+    width: 80px;
+    padding: 48px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* outline: none;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white; */
+}
+
+.operation{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 100%;
+    width: 28%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.deleation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: end;
+    /* border: 1px solid white; */
+    height: 30%;
+}
+.deleation button{
+    height: 80px;
+    width: 80px;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: end;
+    /* border: 1px solid white; */
+    height: 60%;
+}
+.function button{
+    height: 80px;
+    width: 80px;
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
