@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+        <div class="heading">
+            <p>Password Generator</p>
+        </div>
+        <div class="input_filed">
+            <input type="text" id="password"  readonly>
+            <input type="range" id="pass_range" min="0" max="30" value="10">
+        </div>
+        <div class="p_length">
+            <p>Password Length</p>
+            <span>10</span>
+        </div>
+        <div class="buttons">
+            <button id="copy"><i class="fa-solid fa-copy" style="color: #ffffff;"></i></button>
+            <button id="del"><i class="fa-solid fa-trash" style="color: #ffffff;"></i></button>
+        </div>
+        <div class="checklists">
+            <div class="check_box">
+                <label for="uppercase">Include uppercase letters (A-Z)</label>
+                <input type="checkbox" id="uppercase" >
+            </div>
+
+            <div class="check_box">
+                <label for="lowercase">Include Lowercase letters (a-z)</label>
+                <input type="checkbox" id="lowercase" >
+            </div>
+
+            <div class="check_box">
+                <label for="numbers">Include Numbers (0-9)</label>
+                <input type="checkbox" id="numbers" >
+            </div>
+
+            <div class="check_box">
+                <label for="symbols">Include Symbols (@,$,..)</label>
+                <input type="checkbox" id="symbols" >
+            </div>
+        </div>
+        <button id="gen" >Generate</button>
+    </div>
+</body>
+</html>
