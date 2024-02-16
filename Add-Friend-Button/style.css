@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(167, 255, 255);
+    background: linear-gradient(150deg , rgb(84, 255, 255), #ff6565);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ body{
 #card{
     height :450px;
     width: 300px;
-    background-color: #fcdada;
+    background-color: #ffd0d0;
     padding: 20px;
     border-radius: 20px;
     display: flex;
@@ -27,8 +27,8 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 5px;
+    cursor: pointer;
 }
-
 #card img {
     height: 60%;
     width: 100%;
