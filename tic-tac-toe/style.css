@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    width: 620px;
+    height: 820px  ;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.348);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.head{
+    width: 100%;
+    height: 10% ;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: white;
+}
+.footer{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 10% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer button{
+    height: 80%;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.49) ;
+    color: white;
+}
+.footer button:hover{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.btns{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btns button{
+    height:180px ;
+    width: 180px;
+    border: 5px solid white;
+    /* background: none; */
+    border-radius: 20px;
+    font-size: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: rgb(72, 0, 0) ;
+}
+
+.btns button:hover{
+    border: 5px solid rgb(118, 0, 0);
+}
+
+
+.popUp{
+    /* display: none; */
+    width: 600px ;
+    height: 600px;
+    position: absolute;
+    background-color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.popUp h2{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.popUp img{
+    width: 80px;
+    height: 80px;
+}
+.popUp p{
+    font-size: 40px;
+}
+.popUp button{
+    margin-top: 80px;
+    font-size: 30px;
+    padding: 20px 60px;
+    border: none;
+    background-color: rgb(0, 187, 0) ;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
