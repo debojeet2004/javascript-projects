@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 100vmax;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, rgb(1, 144, 163), rgb(26, 1, 95), rgb(18, 13, 44));
+} 
+
+.box{
+    width: 60em;
+    height:25rem;
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.squar{
+    /* border: 2px solid rgb(255, 255, 255); */
+    background: linear-gradient(160deg, rgb(250, 4, 217), rgb(255, 0, 0));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 20px;
+    left: 0;
+    top: -20px;
+}
+.circle{
+    /* border: 2px solid rgb(255, 255, 255); */
+    background: linear-gradient(160deg, rgb(1, 2, 88), rgb(0, 247, 255));
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    z-index: -5;
+    position: absolute;
+    right: -20px;
+    bottom: -50px;
+}
+
+.clock{
+    width: fit-content;
+    /* border: 2px solid white; */
+    background: linear-gradient(150deg, rgba(0, 0, 0, 0.384), rgba(255, 255, 255, 0.233));
+    -webkit-backdrop-filter: blur(10px); /* For older Safari versions */
+    backdrop-filter: blur(10px); /* Standard */
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+}   
+
+span{
+    font-size: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #fff; */
+    
+}
+#hrs::after{
+    content: 'Hours';
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#min::after{
+    content: 'minutes';
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#sec::after{
+    content: 'seconds';
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
