@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(114, 215, 255);
-    height: 100vmin;
+    height: 100vmax;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
