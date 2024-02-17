@@ -6,7 +6,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: white;
-    height: 100vmax;
+    /* height: 100vmax; */
+    height: 100vmin;
     width: 100%;
     display: flex;
     align-items: center;
