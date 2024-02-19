@@ -13,7 +13,7 @@ const  windspeed = document.getElementById('windspeed');
 const logo = document.querySelector('.logo');
 
 
-const apiKey = "Your Api key will come here";
+const apiKey = "cd2646bc93d65185724955712e1ef57a";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric";
 
 
