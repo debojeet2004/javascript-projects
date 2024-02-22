@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #005813,#00ce2d, #003624);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.box{
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.head{
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    /* font-weight: 600; */
+}
+
+.display{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #33e20781;
+    border-radius: 10px;
+    font-size: 80px;
+}
+
+.btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btns button{
+    width: 35%;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    background-color: #15ff00;
+    /* background: none; */
+    border-radius: 5px;
+    
+}
+
+
+.btns button:hover{
+    background: #00ce2d;
+}
+.btns button:active{
+    background: #00a123;
+}
+
+
+#reset{
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #285a0a;
+    border-radius: 50px;
+    background: none;
+    font-size: 20px;
+}
+#reset:hover{
+    background: #285a0a;
+    color: #fff;
+}
+#reset:active{
+    background: #183305;
+    color: #fff;
+}
