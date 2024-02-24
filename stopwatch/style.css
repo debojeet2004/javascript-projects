@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, rgb(119, 202, 250), rgb(180, 213, 255));
+}
+
+.box{
+    width: 430px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    box-shadow: 0px 0px 50px 1px #3786e0;
+    scale: 1.05;
+
+}
+.head   {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.time{
+    width: fit-content;
+    height: 150px;
+    background: #0482f8;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+    padding: 0px 50px;
+}
+
+.btns{
+    width: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btns button{
+    width: 30%;
+    padding: 20px;
+    outline: none;
+    border: 0px ;
+    border-radius: 5px;
+    background: #bcdeff;
+    transition: all 0.3s ease;
+}
+
+.btns button:hover{
+    background: #0482f8;
+    color: white;
+    cursor: pointer;
+}
+
+.btns button i{
+    color: #00386d;
+    font-size: 20px;
+}
+
+.btns button:hover i{
+    color: #ffffff;
+}
