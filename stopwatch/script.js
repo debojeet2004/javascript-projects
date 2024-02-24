@@ -30,8 +30,6 @@ function updateTimer() {
 
 start.addEventListener('click', () => {
     clearInterval(interval);
-    console.log(interval);
-    console.log(updateTimer);
     interval = setInterval(updateTimer, 10);
 });
 
