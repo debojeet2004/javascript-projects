@@ -81,6 +81,11 @@ body{
     transition: all 0.3s ease;
 }
 
+.btns button:nth-child(1):focus{
+    background: #0482f8;
+    color: white;
+}
+
 .btns button:hover{
     background: #0482f8;
     color: white;
