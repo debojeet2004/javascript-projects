@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(150deg, rgba(255, 49, 238, 0.479), rgba(201, 24, 255, 0.801));
+}
+
+.box{
+    width: 600px;
+    height: fit-content;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    width: 100%;
+    /* border: 2px solid #000; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    gap: 10px;
+}
+
+h1 span{
+    display: flex;
+    align-items: center;
+}
+
+.seacrhbox{
+    width: 100%;
+    /* padding: 10px; */
+    /* border: 2px solid #000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seacrhbox input{
+    width: 75%;
+    padding: 15px 0px;
+    border: none;
+    border-bottom: 1px solid #cc00ff;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    /* background-color: rgb(230, 230, 230); */
+}
+.seacrhbox button{
+    width: 20%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #cc00ff;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.seacrhbox button:hover{
+    background-color: rgba(255, 0, 255, 0.5);
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000; */
+    gap: 10px;
+}
+
+.word{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.word button{
+    border:none;
+    /* border:1px solid #000; */
+    padding: 10px;
+    background: none;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'opsz' 24
+    'wght' 400,
+    'GRAD' 0,
+}
+
+.word button:hover{
+    background: #c7c7c728;
+}
+
+.dets{
+    display: flex;
+    /* border: 2px solid #000; */
+    font-size: 14px;
+    gap: 10px;
+    opacity: .5;
+    font-style: italic;
+}
+#word_meaning{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+
+
+.invalid{
+    display: none;
+}
