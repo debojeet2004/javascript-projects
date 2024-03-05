@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conveter</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="box">
+        <div class="input_box">
+            <div class="subhead">
+                <p>From</p>
+                <input type="number" placeholder="Amount" min="0" id="Currency_Input">
+            </div>
+            <div class="subhead" id="right_subhead">
+                <p>Currency Type</p>
+                <select name="" id="currency_type">
+                    <option value="">Currency</option>
+                </select>
+            </div>
+        </div>
+
+        <button id="swap" onclick="swap()">Swap</button>
+        
+        <div class="input_box">
+            <div class="subhead">
+                <p>To</p>
+                <input type="number" placeholder="Amount"  disabled id="result_value">
+            </div>
+            <div class="subhead">
+                <p>Currency Type</p>
+                <select name="" id="currency_type">
+                    <option value="">Currency</option>
+                </select>
+            </div>
+        </div>
+        
+        <button id="convert" onclick="CurrencyConvert()">Convert</button>
+    </div>
+</body>
+</html>
