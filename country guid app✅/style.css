@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg ,#eeff00 ,#ffae00);
+font-family: sans-serif;}
+
+.box{
+    width: 450px;
+    /* height: 600px; */
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #ca8300;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.head{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.searchbar{
+    width:  100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.img img{
+    /* border: 2px solid #000; */
+    width: 80%;
+    height: 70%;
+}
+input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    /* border: 2px solid #000; */
+    font-size: 18px;
+    background: #fff4c1;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: #ffae00;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover{
+    background: #ff8c00;
+}
+button:active{
+    background: #9c5600;
+}
+
+.body{
+    width: 100%;
+    /* height: 500px; */
+    background: #faffb9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 0px;
+}
+
+.dets{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    letter-spacing: 2px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.img p{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #ff8c00;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.mssg{
+    width: 100%;
+    text-align: center;
+}
+.mssg p{
+    font-size: 35px;
+}
