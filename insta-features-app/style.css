@@ -64,6 +64,7 @@ body{
     display: none;
     background-size: cover;
     background-position: center;
+    z-index: 1000;
 }
 
 
