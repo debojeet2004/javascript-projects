@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding: 10%;
+    background: linear-gradient(280deg, #ff9900, #f2ff00);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    /* border: 2px solid #000; */
+    width: 60%;
+    height: 700px;
+    background: #fffdf4;
+    padding: 50px;
+    overflow: auto; /* Change from 'scroll' to 'auto' */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0 4px 80px 20px rgba(112, 91, 0, 0.525);
+}
+
+.container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+form {
+    width: 100%; /* Change from '80%' */
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 80%; /* Add '%' symbol */
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    background: #ffe7c4;
+}
+
+#submit {
+    width: 18%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #ff9900;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#results {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px 0;
+    /* border: 2px solid #000; */
+    padding: 12px;
+}
+
+#results div {
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.525);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transition: .3s;
+}
+
+#results div:hover{
+    scale: 1.02;
+}
+
+#results img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+#results h3 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+#results ul {
+    margin: 0;
+    padding: 0;
+}
+
+#results li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#results a {
+    background-color: #007bff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+#results a:hover {
+    background-color: #0069d9;
+}
